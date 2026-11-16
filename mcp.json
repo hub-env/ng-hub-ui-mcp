@@ -1,0 +1,8 @@
+{
+	"mcpServers": {
+		"ng-hub-ui": {
+			"command": "npx",
+			"args": ["-y", "ng-hub-ui-mcp"]
+		}
+	}
+}
