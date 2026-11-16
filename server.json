@@ -1,0 +1,30 @@
+{
+	"$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+	"name": "io.github.hub-env/ng-hub-ui-mcp",
+	"description": "Real API, examples and CSS variables of the ng-hub-ui Angular libraries for coding assistants.",
+	"websiteUrl": "https://hubui.dev/en/ai-agents/",
+	"repository": {
+		"url": "https://github.com/hub-env/ng-hub-ui-mcp",
+		"source": "github"
+	},
+	"version": "22.0.1",
+	"packages": [
+		{
+			"registryType": "npm",
+			"identifier": "ng-hub-ui-mcp",
+			"version": "22.0.1",
+			"transport": {
+				"type": "stdio"
+			},
+			"environmentVariables": [
+				{
+					"name": "HUB_UI_MCP_OFFLINE",
+					"description": "Set to 1 to skip the live catalog on hubui.dev and use the copy bundled in the package.",
+					"isRequired": false,
+					"isSecret": false,
+					"format": "string"
+				}
+			]
+		}
+	]
+}

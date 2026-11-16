@@ -1,0 +1,38 @@
+{
+	"name": "ng-hub-ui-mcp",
+	"version": "22.0.1",
+	"license": "MIT",
+	"description": "MCP server that gives coding assistants the real API, examples and CSS variables of the ng-hub-ui Angular libraries.",
+	"author": "Carlos Morcillo Fernández <carlos.morcillo@me.com> (https://www.carlosmorcillo.com)",
+	"mcpName": "io.github.hub-env/ng-hub-ui-mcp",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hub-env/ng-hub-ui-mcp.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hub-env/hub-ui/issues"
+	},
+	"homepage": "https://hubui.dev/en/ai-agents/",
+	"keywords": [
+		"mcp",
+		"model-context-protocol",
+		"angular",
+		"ng-hub-ui",
+		"ai-agents"
+	],
+	"type": "module",
+	"bin": {
+		"ng-hub-ui-mcp": "dist/server.js"
+	},
+	"files": [
+		"dist",
+		"data/catalog.json"
+	],
+	"engines": {
+		"node": ">=20"
+	},
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "^1.32.2",
+		"zod": "^4.6.7"
+	}
+}
